@@ -330,12 +330,13 @@ a {
 }
 
 .team-item:hover .team-item-link,
-.team-item:active .team-item-link {
+.team-item-icon-list:hover .team-item-link,
+.team-item-icon-list:active .team-item-link {
   background-color: #404bbf;
 }
-.team-item-icon-list:hover .team-item-link {
+/* .team-item-icon-list:hover .team-item-link {
   background-color: #31d0aa;
-}
+} */
 
 .team-item-link {
   background-color: #4d5ae5;
