@@ -291,8 +291,7 @@ a {
 }
 
 .team-item-info {
-  padding-top: 32px;
-  padding-bottom: 0px;
+  padding: 32px 0;
 }
 
 .team-item-img {
@@ -314,12 +313,10 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  /* margin-bottom: 8px; */
 }
 
 .team-item-icon {
   padding-top: 8px;
-  padding-bottom: 32px;
 }
 
 .team-item-icon {
@@ -332,6 +329,7 @@ a {
 .team-item-icon-list {
 }
 
+.team-item:hover .team-item-link,
 .team-item:hover .team-item-link {
   background-color: #404bbf;
 }
