@@ -330,13 +330,10 @@ a {
 }
 
 .team-item:hover .team-item-link,
-.team-item-icon-list:hover .team-item-link,
-.team-item-icon-list:focus .team-item-link {
+.team-item-link:hover,
+.team-item-link:focus {
   background-color: #404bbf;
 }
-/* .team-item-icon-list:hover .team-item-link {
-  background-color: #31d0aa;
-} */
 
 .team-item-link {
   background-color: #4d5ae5;
